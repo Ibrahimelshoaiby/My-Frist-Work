@@ -1,0 +1,228 @@
+        /*Start Main Rulez*/
+        
+body
+{
+    
+}
+.container
+{
+    width:1170px;
+    margin: auto
+}
+.clearfix {clear: both}
+        
+         /*End Main Rulez*/
+         
+         
+         /*Start Header */
+.header .slider
+{
+    height:600px;
+    background-color: #eee ;
+    background-image: url('images/slider.jpg')
+}
+.header .slider .intro h2 { margin: 0} 
+.header .navbar
+{
+    background-color:#252F31;
+    color: #fff;
+    overflow: hidden;
+   
+   
+  
+}
+.header .navbar  h2 {float: left;  text-transform: uppercase}
+.header .navbar  h2 span {color: #59AA76}
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+.header .navbar ul li
+
+{
+    float: left ;
+    padding: 10px
+}
+           /*End Header */
+           
+           
+           /*Start Features */
+           
+.features
+{
+    overflow: hidden;
+    
+}
+
+.features .feat
+{
+    float: left;
+    width: 33.333333%;
+    height: 150px;
+   
+    
+}
+.features .feat h2
+{
+    text-transform: uppercase
+}
+           
+            /*End Features */
+            
+            /*Strat about me*/
+            
+.about-me
+{
+    background-color: #F2F2F2;
+     overflow: hidden
+}
+.about-me .image
+{
+    float: left;
+    width: 40%
+   
+}
+.about-me .image img { width: 100%}
+
+.info
+{
+   
+  float: right;
+  width: 60%
+}
+.info .hobbies
+{
+    overflow: hidden;
+    
+}
+.info .hobbies > div
+{
+    float: left;
+    width: 50%;
+    min-height: 100px
+}
+            
+            
+            /*End about me*/
+            
+            /*Start My Skills*/
+            
+ .my-skills
+ {
+    padding:30 0 30 0 ;
+    overflow: hidden
+ }
+.my-skills .skills,
+.my-skills .progress
+{
+    width: 50%;
+    float: left;
+    padding-top: 30px
+}
+            
+        
+            /*End My Skills*/
+            
+            /*Start Resume*/
+            
+ .resume { background-color:#F2F2F2; text-align: center }
+            
+            
+            /*End Resume*/
+            
+                   /*Start My Education*/
+            
+ .my-education
+ {
+    padding: 30 0 30 0 ;
+    overflow: hidden
+ }
+.my-education .main,
+.my-education .exp
+{
+    width: 50%;
+    float: left;
+    padding-top: 30px
+}
+            
+        
+            /*End My Education*/
+            
+             /*Start Testemonials*/
+            
+ .testemonials { background-color:#F2F2F2; text-align: center;padding-top:30  }
+            
+            
+            /*End Testemonials*/
+            
+            
+            /*Start Potofolio*/
+            
+.portfolio
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+   
+}
+.portfolio .our-work
+{
+    overflow: hidden;
+    
+}
+.portfolio .our-work  >  div
+{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px
+}
+.portfolio .our-work img { width:92%;margin:15px}
+
+
+            
+            /*End Potofolio*/
+            
+            
+            /*Start Contact Me*/
+.contact
+{
+    background-color: #252F31; overflow: hidden;
+}
+.contact h2 { color: #fff}
+.contact p { color:#6a6e71 }
+ .contact .info,
+ .contact .form
+ {width:50%;
+ float: left}
+
+            
+            /*End Contact Me*/
+            
+            
+            
+            
+            /*Start Footer*/
+            
+.footer
+{ background-color:#191e22;
+color: #6a6e71 ;text-align: center;padding: 30px  0
+}
+            
+            
+            
+            /*End Footer*/
+            
+            
+            
+            
+
+            
+
+
+
+
+
+         

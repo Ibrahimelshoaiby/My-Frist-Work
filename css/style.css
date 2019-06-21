@@ -20,12 +20,12 @@ body
     height:600px;
     background-color: #eee ;
     background-size: cover;
-background-image: url("../images/icon.jpg");
+background-image: url("../images/image.jpg");
 }
-.header .slider .intro  { color: #fecb00;text-align: center;
+.header .slider .intro  { color: #fff;text-align: center;
  ;padding-top: 250px}
-.header .slider .intro h2 { margin: 0 auto;font-size:50px;width: 600px;border-bottom: 5px solid #fecb00;
-border-top: 5px solid #fecb00;padding: 5px 0}
+.header .slider .intro h2 { margin: 0 auto;font-size:50px;width: 600px;border-bottom: 5px solid #fff;
+border-top: 5px solid #fff;padding: 5px 0}
 
 .header .slider .intro button
 {
@@ -190,15 +190,58 @@ border-top: 5px solid #fecb00;padding: 5px 0}
 {
     width: 50%;
     float: left;
-    padding-top: 30px
+    padding-top: 30px;
+    padding-bottom: 40px
 }
+.my-skills .skills h2
+{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+.my-skills .skills p
+{
+    margin: 0 0 10px 40px; line-height: 1.6;
+    color: #666
+   
+}
+
+.my-skills .skills  p:last-of-type
+{
+    margin-bottom:  15px 
+    
+}
+.my-skills .skills button
+{
+    
+   ;margin-left: 40px;margin-top: 20px
+}
+
+.my-skills .progress .teq {margin-left: 100px}
+.my-skills .progress .teq h3 {color: #555}
+.my-skills .progress .teq div { background-color: #f2f2f2;height:25px}
+.my-skills .progress .teq div span
+{
+    display: block;background-color: #2dcc70;line-height: 25px;height: 25px;text-align: right;color: #fff;
+
+}
+
             
         
             /*End My Skills*/
             
             /*Start Resume*/
-            
- .resume { background-color:#F2F2F2; text-align: center }
+
+ .resume { background-color:#F2F2F2; text-align: center;padding-bottom: 50px;padding-top: 70px }
+ .resume h2
+ {text-transform: uppercase;color: #444;font-weight: bold}
+ 
+ .resume p { padding-top: 10px;padding-bottom: 15px;color: #666}
+.resume button
+{
+    margin-bottom: 40px;
+    margin-top: 20px
+}
+
             
             
             /*End Resume*/
@@ -284,6 +327,22 @@ color: #6a6e71 ;text-align: center;padding: 30px  0
             
             
             /*End Footer*/
+            
+            
+            
+            
+            
+        /*MY Owen Frame Work*/
+        
+.my-button
+{
+    background: none;
+    color: #4db779;
+    padding: 10px 30px;
+    border: 3px solid #4db779;
+    font-weight: bold;
+    font-size: 20px
+}
             
             
             

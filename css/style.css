@@ -253,21 +253,82 @@ border-top: 5px solid #fff;padding: 5px 0}
     padding: 30 0 30 0 ;
     overflow: hidden
  }
-.my-education .main,
+ .my-education   hr { margin: 20px 0;border:1px solid}
+
+ .my-education .main   h2
+{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+.my-education .main  p
+{
+    margin: 0 0 10px 40px; line-height: 1.6;
+    color: #666
+   
+}
+
+.my-education .main p:last-of-type
+{
+    margin-bottom:  15px 
+    
+}
+.my-education .main
+{
+     width: 50%;
+    float: left
+    ;margin-right: 5%
+}
+
 .my-education .exp
 {
-    width: 50%;
+    width: 45%;
     float: left;
     padding-top: 30px
 }
+.my-education .exp h3
+{
+    margin-top: 50px;
+    margin-bottom: 8px
+}
+.my-education .exp  span
+{
+    display: block;
+    margin-bottom:  8px
+}
+.my-education .exp  span:first-of-type{ color: #666}
+.my-education .exp  span:last-of-type
+{
+    background-color: #4db779;
+    display: inline-block;
+    color: #fff;font-weight: bold;
+    padding: 4px 10px
+}
+.my-education .exp  hr { margin: 20px 0;}
+.my-education .exp p { line-height: 1.7;color: #555}
+
+
             
         
             /*End My Education*/
             
              /*Start Testemonials*/
             
- .testemonials { background-color:#F2F2F2; text-align: center;padding-top:30  }
-            
+ .testemonials { background-color:#F2F2F2; text-align: center;padding-top:30px;padding-bottom: 30px  }
+ .testemonials q
+ {
+    line-height: 1.9;
+    color: #888;
+    font: italic bold 19px/1.9 arial,tahoma
+ }
+ .testemonials h3
+ {color: #888;font-size:20px;margin-bottom: 30px}
+ 
+ .testemonials ul  {;padding-left: 0;text-align: center}
+ 
+.testemonials ul  li {border: 2px solid #2dcc70;width: 15px;height: 15px;display: inline-block;cursor: pointer; list-style: circle}
+.testemonials ul  li.active,
+.testemonials ul  li:hover
+  {background-color:#2dcc70 }
             
             /*End Testemonials*/
             
@@ -276,10 +337,19 @@ border-top: 5px solid #fff;padding: 5px 0}
             
 .portfolio
 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
     text-align: center
    
+}
+.portfolio h2
+{
+    color: #777
+}
+.portfolio p {
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 30px
 }
 .portfolio .our-work
 {
@@ -292,7 +362,12 @@ border-top: 5px solid #fff;padding: 5px 0}
     width: 33.333333%;
     margin-bottom: 10px
 }
-.portfolio .our-work img { width:92%;margin:15px}
+.portfolio .our-work img
+{ width:92%;margin:15px;
+padding: 3px;
+background-color: #fff; border: 1px solid #ccc;
+box-shadow: 10px 10px 10px #ccc}
+
 
 
             
@@ -302,14 +377,19 @@ border-top: 5px solid #fff;padding: 5px 0}
             /*Start Contact Me*/
 .contact
 {
-    background-color: #252F31; overflow: hidden;
+    background-color: #252F31; overflow: hidden;padding-top: 50px;padding-bottom: 70px
 }
-.contact h2 { color: #fff}
-.contact p { color:#6a6e71 }
+
+.contact h2 { color: #fff;margin-left: 40px}
+.contact p { color:#6a6e71;margin-left: 40px ;line-height: 1.7}
+.contact p strong {color: #fff}
+ 
  .contact .info,
  .contact .form
  {width:50%;
- float: left}
+ float: left }
+ 
+  
 
             
             /*End Contact Me*/

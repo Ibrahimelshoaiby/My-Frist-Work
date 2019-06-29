@@ -1,9 +1,7 @@
+        /* 482 lines */    
+        
         /*Start Main Rulez*/
         
-body
-{
-    
-}
 .container
 {
     width:1170px;
@@ -12,8 +10,7 @@ body
 .clearfix {clear: both}
         
          /*End Main Rulez*/
-         
-         
+               
          /*Start Header */
 .header .slider
 {
@@ -29,7 +26,7 @@ border-top: 5px solid #fff;padding: 5px 0}
 
 .header .slider .intro button
 {
-    font-size: 30px; margin-top:25px;background: none; color: #fff;margin-top: 20px;border:1px solid #fff;font-weight: 2;padding:10px 20px
+    font-size: 30px; margin-top:25px;background: none; color: #fff;margin-top: 20px;border:1px solid #fff;font-weight:2;padding:10px 20px
 }
 
 
@@ -40,11 +37,7 @@ border-top: 5px solid #fff;padding: 5px 0}
     background-color:#252F31;
     color: #fff;
     overflow: hidden;
-   
-   
-  
 }
-.header .navbar  h2 {float: left;  text-transform: uppercase}
 .header .navbar  h2 span {color: #59AA76;text-transform: none}
 .header .navbar ul
 {
@@ -65,35 +58,22 @@ border-top: 5px solid #fff;padding: 5px 0}
     text-decoration: none
 }
 .header .navbar ul li .active   { color:#41bf7d}
-.header .navbar ul li a:hover 
-{
-    color: #41bf7d
-}
+.header .navbar ul li a:hover {color: #41bf7d}
            /*End Header */
            
            
            /*Start Features */
            
-.features
-{
-    overflow: hidden;
-    
-}
+.features{overflow: hidden;}
 
 .features .feat
-{
-    float: left;
-    width: 33.333333%;
-    height: 150px;
-   
-    
+{ width: 33.333333%;
+    height:150px;   
 }
 .features .feat h2
 {
     color: #444; text-align: justify
 }
-.features .feat p{ line-height: 1.6;color: #888}
-           
             /*End Features */
             
             /*Strat about me*/
@@ -104,16 +84,12 @@ border-top: 5px solid #fff;padding: 5px 0}
      overflow: hidden
 }
 .about-me .image
-{
-    float: left;
-    width: 40%
-   
-}
+{width: 40%  }
 .about-me .image img { width: 100%}
 
  .about-me .info
 {
-   
+ 
   float: right;
   width: 60%
 }
@@ -122,23 +98,10 @@ border-top: 5px solid #fff;padding: 5px 0}
     margin: 25px 0 20px 40px;
     color: #555
 }
-.about-me .info > p
-{
-    margin: 0 0 10px 40px;
-   
-}
-
-.about-me .info >  p:last-of-type
-{
-    margin-bottom:  15px 
-    
-}
+.about-me .info > p {margin: 0 0 10px 40px;}
+.about-me .info >  p:last-of-type{margin-bottom:  15px    }
 .about-me .info p
-{
-   
-    line-height: 1.6;
-    color: #666
-}
+{line-height: 1.6;color: #666}
 
 .about-me .info .hobbies
 {
@@ -148,8 +111,7 @@ border-top: 5px solid #fff;padding: 5px 0}
 }
 
 .about-me .info .hobbies .content
-{
-    float: left;
+{ 
     width: 50%;
     min-height: 100px;
     overflow: hidden
@@ -157,7 +119,6 @@ border-top: 5px solid #fff;padding: 5px 0}
 .info .hobbies .content h3  {color: #555}
 .info .hobbies .content .icon
 {
-    float: left;
     width: 12%;
     margin-right: 5px
 }
@@ -166,11 +127,7 @@ border-top: 5px solid #fff;padding: 5px 0}
     max-width: 100%;
     margin: 15px 10px 0 0 
 }
-.info .hobbies .content .text
-{
-    float: left;
-    width: 83%
-}
+.info .hobbies .content .text{width: 83%}
 .info .hobbies .content .text h3  {margin-bottom:5px}
 .info .hobbies .content .text p  {margin-top:0;margin-bottom: 0}
             
@@ -189,7 +146,6 @@ border-top: 5px solid #fff;padding: 5px 0}
 .my-skills .progress
 {
     width: 50%;
-    float: left;
     padding-top: 30px;
     padding-bottom: 40px
 }
@@ -200,21 +156,11 @@ border-top: 5px solid #fff;padding: 5px 0}
 }
 .my-skills .skills p
 {
-    margin: 0 0 10px 40px; line-height: 1.6;
-    color: #666
-   
-}
+    margin: 0 0 10px 40px;
+    color: #666}
 
-.my-skills .skills  p:last-of-type
-{
-    margin-bottom:  15px 
-    
-}
-.my-skills .skills button
-{
-    
-   ;margin-left: 40px;margin-top: 20px
-}
+.my-skills .skills  p:last-of-type{margin-bottom:  15px   }
+.my-skills .skills button{ margin-left: 40px;margin-top: 20px}
 
 .my-skills .progress .teq {margin-left: 100px}
 .my-skills .progress .teq h3 {color: #555}
@@ -232,25 +178,20 @@ border-top: 5px solid #fff;padding: 5px 0}
             /*Start Resume*/
 
  .resume { background-color:#F2F2F2; text-align: center;padding-bottom: 50px;padding-top: 70px }
- .resume h2
- {text-transform: uppercase;color: #444;font-weight: bold}
- 
+ .resume h2{text-transform: uppercase;color: #444;font-weight: bold}
  .resume p { padding-top: 10px;padding-bottom: 15px;color: #666}
 .resume button
 {
     margin-bottom: 40px;
     margin-top: 20px
 }
-
-            
-            
             /*End Resume*/
             
                    /*Start My Education*/
             
  .my-education
  {
-    padding: 30 0 30 0 ;
+    padding:30 0 30 0 ;
     overflow: hidden
  }
  .my-education   hr { margin: 20px 0;border:1px solid}
@@ -262,28 +203,22 @@ border-top: 5px solid #fff;padding: 5px 0}
 }
 .my-education .main  p
 {
-    margin: 0 0 10px 40px; line-height: 1.6;
+    margin: 0 0 10px 40px;
     color: #666
    
 }
 
-.my-education .main p:last-of-type
-{
-    margin-bottom:  15px 
-    
-}
+.my-education .main p:last-of-type{margin-bottom:  15px }
 .my-education .main
 {
      width: 50%;
-    float: left
     ;margin-right: 5%
 }
 
 .my-education .exp
 {
     width: 45%;
-    float: left;
-    padding-top: 30px
+    padding-top:30px
 }
 .my-education .exp h3
 {
@@ -304,11 +239,7 @@ border-top: 5px solid #fff;padding: 5px 0}
     padding: 4px 10px
 }
 .my-education .exp  hr { margin: 20px 0;}
-.my-education .exp p { line-height: 1.7;color: #555}
-
-
-            
-        
+.my-education .exp p { color: #555}
             /*End My Education*/
             
              /*Start Testemonials*/
@@ -317,11 +248,10 @@ border-top: 5px solid #fff;padding: 5px 0}
  .testemonials q
  {
     line-height: 1.9;
-    color: #888;
     font: italic bold 19px/1.9 arial,tahoma
  }
  .testemonials h3
- {color: #888;font-size:20px;margin-bottom: 30px}
+ {color: #888;font-size:20px;margin-bottom:30px}
  
  .testemonials ul  {;padding-left: 0;text-align: center}
  
@@ -342,20 +272,13 @@ border-top: 5px solid #fff;padding: 5px 0}
     text-align: center
    
 }
-.portfolio h2
-{
-    color: #777
-}
+.portfolio h2{color: #777}
 .portfolio p {
     line-height: 1.7;
     color: #666;
     margin-bottom: 30px
 }
-.portfolio .our-work
-{
-    overflow: hidden;
-    
-}
+.portfolio .our-work{overflow: hidden}
 .portfolio .our-work  >  div
 {
     float: left;
@@ -366,53 +289,72 @@ border-top: 5px solid #fff;padding: 5px 0}
 { width:92%;margin:15px;
 padding: 3px;
 background-color: #fff; border: 1px solid #ccc;
-box-shadow: 10px 10px 10px #ccc}
-
-
-
-            
+box-shadow: 10px 10px 10px #ccc}   
             /*End Potofolio*/
-            
             
             /*Start Contact Me*/
 .contact
 {
     background-color: #252F31; overflow: hidden;padding-top: 50px;padding-bottom: 70px
 }
+ .contact .info
+  {
+    width: 50%
+    ;margin-right: 5%
+  }
+.contact h2 { color: #fff;margin-left:40px}
 
-.contact h2 { color: #fff;margin-left: 40px}
+
 .contact p { color:#6a6e71;margin-left: 40px ;line-height: 1.7}
 .contact p strong {color: #fff}
  
- .contact .info,
- .contact .form
- {width:50%;
- float: left }
- 
-  
 
-            
+  
+  .contact .form {width: 45%}
+   .contact .form label
+   {
+    display: block;color: #f1f1f1;margin-bottom: 15px
+    
+   }
+   .contact .form input[type="text"]
+  {
+    background-color: #4b5557;color: #fff;padding: 10px;border: 0;width: 75%;margin-bottom: 15px
+  }
+  
+   .contact .form textarea
+  {
+    background-color: #4b5557;color: #fff;padding: 10px;border: 0;width: 75%;margin-bottom: 15px;height: 300px
+  }
+  
+  .contact .form button
+  {
+    text-align: left;display: block;background-color: #191e22;color: #fff;margin: 10 ;border: 0;padding: 10px;cursor: pointer
+  } 
             /*End Contact Me*/
-            
-            
-            
+              
             
             /*Start Footer*/
             
 .footer
 { background-color:#191e22;
-color: #6a6e71 ;text-align: center;padding: 30px  0
+color: #6a6e71 ;text-align: center;padding: 20px  0;overflow: hidden
 }
-            
-            
+.footer ul
+{
+    list-style:  none;
+    padding-left: 0;margin: 0
+
+}
+.footer ul li
+{display: inline-block;
+    float: right;
+    margin: 3px}
+.footer ul li img{width: 24px}
             
             /*End Footer*/
             
-            
-            
-            
-            
-        /*MY Owen Frame Work*/
+                       
+        /* Start My Owen Frame Work*/
         
 .my-button
 {
@@ -423,7 +365,12 @@ color: #6a6e71 ;text-align: center;padding: 30px  0
     font-weight: bold;
     font-size: 20px
 }
-            
+
+.fl-left {float:left}
+
+p {line-height: 1.6;color: #888}
+
+      /* End My Owen Frame Work*/      
             
             
             
